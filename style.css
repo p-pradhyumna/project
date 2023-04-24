@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* NAV BAR */
+#nav_bar {
+  float: right;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 12px;
+}
+
+#nav_bar #signin {
+  background: #4887ef; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+}
+
+.nav-links {
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.nav-links a:hover {
+  text-decoration: underline;
+}
+
+#sign_in:hover { 
+  box-shadow: 1px 1px 5px #999;
+}
+
+#sign_in {
+  color: #fff;
+}
+.user-icon{
+  background-image: url(https://www.achievers.com/wp-content/uploads/2020/05/05-27-20-2.jpg);
+  background-size: 32px 32px;
+border-radius: 50%;
+display: block;
+margin: -1px;
+height: 32px;
+width: 32px;
+margin-right: 30px;
+margin-bottom: -20px;
+}
+.flash cards{
+  margin-bottom: -20px
+}
+.below_header {
+  margin-bottom: 100px;
+  width: 100%
+}
+.cards{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.cards h2.header{
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+@media (max-width: 90px) {
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: all .3s ease;
+}
+.content .fab{
+  font-size: 70px;
+  margin: 16px 0;
+}
+.content > *{
+  flex: 1 1 100%;
+}
+.content:hover{
+  color: black;
+}
+.content:hover a{
+  border-color: white;
+  background: black;
+}
+.content h2{
+  font-size: 30px;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.content p{
+  font-size: 17px;
+  font-family: 'Poppins',sans-serif;
+}
+.content a{
+  margin: 22px 0;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 15px 0;
+  border-radius: 25px;
+  transition: .3s ease;
+}
+.content a:hover{
+  border-radius: 4px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+  }
+button{
+  padding: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+button:hover{
+  background-color:rgba;
+ }
+.container{
+  width: 95%;
+  margin: auto;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  background-color: white;
+}
+.nav button{
+  font-family: inherit;
+}
+.create_box{
+  width: 380px;
+  margin: auto;
+  padding: 20px;
+  margin-top:10px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 0 2px 4px 0 rgb;
+}
+.create-box textarea{
+  width: 100%;
+  border-radius: 5px;
+  font-family: inherit;
+  border: 1px solid lightgray;
+}
+.create-box button{
+  width: fit-content;
+}
